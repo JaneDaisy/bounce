@@ -7,7 +7,7 @@ from texts import Text, Message
 from button import Button, LevelButton
 
 pygame.init()
-WIDTH, HEIGHT = 192, 212
+WIDTH, HEIGHT =800, 600
 win = pygame.display.set_mode((WIDTH, HEIGHT), pygame.NOFRAME)
 pygame.display.set_caption('Bounce')
 
